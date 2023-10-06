@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notebook</string>
+    <string name="title">Main page</string>
+    <string name="addButton">Add</string>
+    <string name="viewButton">View</string>
+    <string name="editButton">Edit</string>
+    <string name="deleteButton">Delete</string>
+    <string name="listName">Name of the list</string>
+    <string name="experimentalInput">here be text</string>
+    <string name="az">A-Z</string>
+    <string name="lu">Last used</string>
+    <string name="latest">Latest created</string>
+</resources>

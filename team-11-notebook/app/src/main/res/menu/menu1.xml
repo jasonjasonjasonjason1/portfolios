@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/orderBut"
+        android:title="Order"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_sort_by_size">
+        <menu>
+            <item
+                android:id="@+id/alphaOrder"
+                android:title="A-Z">
+
+            </item>
+            <item
+                android:id="@+id/useTimeOrder"
+                android:title="Last updated">
+            </item>
+            <item
+                android:id="@+id/creatTimeOrder"
+                android:title="Last created">
+            </item>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="INFO"
+        android:id="@+id/infoBut"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_info_details">
+    </item>
+
+</menu>

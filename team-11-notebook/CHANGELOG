@@ -1,0 +1,71 @@
+08.12.2020 11:25 --/\-- bugfix
+
+07.12.2020 19:20 --/\-- Final version
+                        #You cannot add or modify to already existing title anymore.
+                        #Longpressing on a note now opens a popup showing details of the note.
+                        #Added info about longpress to info page.
+
+07.12.2020 17:10 --/\-- 1.4 version
+                        #You can't give empty titles anymore.
+
+07.12.2020 16:40 --/\-- 1.3 version
+                        #Ordering functionality finished.
+
+                            //left to do: action bar adaptation.
+07.12.2020 15:15 --/\-- 1.2 version
+                        #Alphabetical sorting now works.
+                        #Added orderingNote class.
+
+                            //to do: date sorting
+                            //to do: action bar adaptation
+07.12.2020 11:50 --/\-- 1.1 version
+                        #Info page polished up and finished.
+
+06.12.2020 18:20 --/\-- 1.0 version
+                        #Notes now stored properly and all related functions functional.
+                        #List that stores the notes is stringed in a json, then stored in preferences.
+                        #activity_addNote and activity_editNote now children of MainActivity.
+                        #Small improvements.
+                        #Bug fixed in which if you edit only a note's text/title, the other will be null.
+
+                            //to do: implement 'order' button's mechanism.
+                            //to do: polishing.
+04.12.2020 14:20 --/\-- MAJOR UPDATE
+                        #Application framework and mechanisms now completely functional.
+                        #Changed listview+adapter mechanism. It works flawlessly now.
+                        #All note-related methods/activities working fully.(You can add, edit, delete, view them)
+                        #Added finisher methods to refresh (if in another activity: to) MainActivity.
+
+                            //TO DO: make notes persistent.
+                            //to do: implement 'order' button's mechanism.
+                            //to do: polishing.
+04.12.2020 08:40 --/\-- #Edit activity mostly finished.
+
+01.12.2020 17:20 --/\-- #Fixed edit/delete buttons on listed notes.
+                        #View activity now displays text of it's note.
+                        #Cleaned up some of the code.
+                        #Some work towards adding a new note
+
+                            //to do: finish adding notes.
+30.11.2020 21:45 --/\-- #Some UI adjustments.
+                        #Colour adjusted to theme on action bar (see themes.xml).
+                        #Edit/delete button size and layout adjusted to leave more space for text.
+
+                            //To do: fix edit/delete button functionality
+                            //To do: finally create storable text input
+30.11.2020 20:50 --/\-- #Cleaned up code, reintroduced preference function to the 'order button' replaced to action bar.
+
+28.11.2020 00:35 --/\-- #Main menu now has a working ListView with styled rows.
+                        #Some changes to UI design.
+                        #List objects' layout is in note_listing.xml.
+
+                        ###Due to the ListView, 'Edit' and 'Delete' buttons are now dysfunctional. To be fixed.
+                            //To do: create functionality to add new notes and persistently store them.
+                            //To do: put 'Add note' and 'Order' buttons to top bar.
+26.11.2020 02:45 --/\-- #Added "order button's" mechanic to change its text when you click on it, as well as make that state persist when you exit the application.
+                        #This also includes a tiny change to main layout, where the "order button's" text is a different string. It could be changed to icons or some shorter text in the future.
+
+                            //To do next: create functionality to add new notes and persistently store them.
+                            //To do after: make listing in Main Menu working. Composite list stuff probably.
+
+23.11.2020 05:25 --/\-- #Added "new note" activity's layout (with test field TextView, don't remove that), added basic input function to it. Added new string for temporary text input.
